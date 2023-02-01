@@ -1,0 +1,14 @@
+{
+   "name": "t2schola課題",
+   "version": "1.0", 
+   "manifest_version": 3,
+   "description": "T2の課題表示する", 
+   "content_scripts":[{
+    "matches":["https://t2schola.titech.ac.jp/"],
+    "js":[
+        "content.js"
+    ],
+    "css": ["mystyle.css"]
+   }]
+   
+ }

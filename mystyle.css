@@ -1,0 +1,15 @@
+table {
+   /* table-layout: fixed;     固定レイアウト */
+   border-collapse: collapse; 
+   border: 2px solid rgb(137, 152, 227);   /* 外枠：2px,実線,緑色 */
+   /* width: 350px;              */
+   padding: 10px !important;
+   border-spacing: 20px 10px !important;
+}
+table th {/*table内のthに対して*/
+  padding: 10px;/*上下左右10pxずつ*/
+}
+
+table td {/*table内のtdに対して*/
+  padding: 3px 10px;/*上下3pxで左右10px*/
+}
